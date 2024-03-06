@@ -8,7 +8,7 @@ services:
     devices:
       - /dev/snd:/dev/snd
     environment:
-      - SQUEEZELITE_NAME=office-pi
+      - SQUEEZELITE_NAME=Stereo
       - SQUEEZELITE_AUDIO_DEVICE=hw:CARD=sndrpihifiberry,DEV=0
       - SQUEEZELITE_SERVER_PORT=192.168.1.173:3483
       - SQUEEZELITE_RATES="44100-192000"
